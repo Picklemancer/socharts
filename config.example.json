@@ -1,0 +1,95 @@
+{
+    "sample_duration": 3,
+    "graphs": [
+        {
+            "label": "Usage (in %)",
+            "properties": [
+                {
+                    "label": "E-Cores",
+                    "key": "cores0_usage",
+                    "color": "green"
+                },
+                {
+                    "label": "P0-Cores",
+                    "key": "cores1_usage",
+                    "color": "red"
+                },
+                {
+                    "label": "P1-Cores",
+                    "key": "cores2_usage",
+                    "color": "red"
+                },
+                {
+                    "label": "GPU",
+                    "key": "gpu_usage",
+                    "color": "blue"
+                }
+            ]
+        },
+        {
+            "label": "Frequency (in MHz)",
+            "properties": [
+                {
+                    "label": "E-Cores",
+                    "key": "cores0_freq",
+                    "color": "green"
+                },
+                {
+                    "label": "P0-Cores",
+                    "key": "cores1_freq",
+                    "color": "red"
+                },
+                {
+                    "label": "P1-Cores",
+                    "key": "cores2_freq",
+                    "color": "red"
+                },
+                {
+                    "label": "GPU",
+                    "key": "gpu_freq",
+                    "color": "blue"
+                }
+            ]
+        },
+        {
+            "label": "Power (in mW)",
+            "properties": [
+                {
+                    "label": "Package",
+                    "key": "soc_power",
+                    "color": "magenta"
+                },
+                {
+                    "label": "CPU",
+                    "key": "cpu_power",
+                    "color": "cyan"
+                },
+                {
+                    "label": "E-Cores",
+                    "key": "e_cores_power",
+                    "color": "green"
+                },
+                {
+                    "label": "P-Cores",
+                    "key": "p_cores_power",
+                    "color": "red"
+                },
+                {
+                    "label": "GPU",
+                    "key": "gpu_power",
+                    "color": "blue"
+                },
+                {
+                    "label": "DRAM",
+                    "key": "dram_power",
+                    "color": "light_gray"
+                },
+                {
+                    "label": "ANE",
+                    "key": "ane_power",
+                    "color": "yellow"
+                }
+            ]
+        }
+    ]
+}

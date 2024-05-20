@@ -1,0 +1,30 @@
+{
+  "sample_duration": 3,
+  "graphs": [
+    {
+      "label": "Power (in mW)",
+      "properties": [
+        {
+          "label": "SOC",
+          "key": "soc_power",
+          "color": "magenta"
+        },
+        {
+          "label": "CPU",
+          "key": "cpu_power",
+          "color": "cyan"
+        },
+        {
+          "label": "GPU",
+          "key": "gpu_power",
+          "color": "blue"
+        },
+        {
+          "label": "ANE",
+          "key": "ane_power",
+          "color": "yellow"
+        }
+      ]
+    }
+  ]
+}
